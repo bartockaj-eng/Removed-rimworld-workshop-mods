@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>Give Back My F****** Mechanoids</name>
+  <author>HappyWindinkg</author>
+  <packageId>happywindinkg.gbmfm</packageId>
+  <modVersion>1.0</modVersion>
+    <supportedVersions>
+    <li>1.6</li>
+  </supportedVersions>
+  <description>Something broke my fricking mech gestator. The mech just wouldn't come out, and the poor pawn stood there like an idiot, waiting forever.
+So I asked ChatGPT for help, and boom — the patch did the trick.
+If this sounds familiar, maybe this mod can save your sanity too.</description>
+  <loadAfter>
+    <li>nikidigi.ResurrectEnemyMechanoids</li>
+	<li>ResurrectEnemyMechanoids</li>
+	<li>brrainz.harmony</li>
+  </loadAfter>
+</ModMetaData>
