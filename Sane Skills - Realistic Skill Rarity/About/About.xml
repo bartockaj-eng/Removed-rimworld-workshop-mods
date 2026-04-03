@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?> 
+		<ModMetaData>
+  			<name>Sane Skills - Realistic Skill Rarity</name>
+  			<author>Evyatar108</author>
+  			<supportedVersions>
+    			<li>1.4</li>
+				<li>1.5</li>
+ 				<li>1.6</li>
+  			</supportedVersions>
+  			<packageId>Evyatar108.SaneSkills</packageId>
+  			<description>As a dedicated RimWorld modder and player, my experience with the game has often led me to ponder the nuances of skill development and rarity. While the game offers an intriguing sandbox for storytelling and survival, I found the skill progression system to be somewhat unrealistic, often breaking immersion in both standard and themed playthroughs. Thus, "Sane Skills" was born from a desire to inject a more realistic and challenging skill dynamic into the game.
+
+The core tenets of "Sane Skills" are as follows:
+				
+1. Rarity and Value of Advanced Skills: In "Sane Skills," encountering pawns with high skill levels becomes a rarer occurance, making backstories and genes play a much bigger role. This adjustment not only adds a layer of realism but also increases the strategic value of highly skilled pawns, making their recruitment, retention, and protection more critical to the colony's success.
+				
+2. Age-Related Skill Proficiency: Drawing inspiration from the real world, where expertise often comes with age and experience, this mod increases the correlation between a pawn's age and their likelihood of possessing higher skill levels. This feature adds a new dimension to the game, encouraging players to consider the age of their pawns as a factor in their strategic planning.
+
+3. Enhanced Skill Progression Realism: A recommended option that this mod provides is to make Skills now develop more slowly (or faster, it's customizable), reflecting a more realistic learning curve. This change adds depth to gameplay, requiring players to strategize more carefully around the development of their colonists' skills and acquiring pawns with high level skills.
+"Sane Skills" aims to provide a more challenging and thoughtful gameplay experience, where skill development and expertise truly matter. It's perfect for players who seek a more strategic and immersive RimWorld experience.
+			</description>
+			<modDependencies>
+				<li>
+					<packageId>brrainz.harmony</packageId>
+					<displayName>Harmony</displayName>
+					<steamWorkshopUrl>steam://url/CommunityFilePage/2009463077</steamWorkshopUrl>
+					<downloadUrl>https://github.com/pardeike/HarmonyRimWorld/releases/latest</downloadUrl>
+				</li>
+			</modDependencies>
+			<loadAfter>
+				<li>brrainz.harmony</li>
+			</loadAfter>
+	</ModMetaData>

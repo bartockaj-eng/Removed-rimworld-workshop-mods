@@ -1,0 +1,139 @@
+0	0000	ldnull
+1	0001	stloc.0
+2	0002	ldnull
+3	0003	stloc.1
+4	0004	ldc.i4.0
+5	0005	stloc.2
+6	0006	ldc.i4.0
+7	0007	stloc.3
+8	0008	ldc.i4.0
+9	0009	stloc.s	V_4 (4)
+10	000B	br	94 (00BB) ldloc.s V_4 (4)
+11	0010	ldloc.s	V_4 (4)
+12	0012	ldc.i4.s	0x46
+13	0014	bne.un.s	43 (0052) ldloc.s V_4 (4)
+14	0016	ldc.i4.5
+15	0017	newarr	[mscorlib]System.String
+16	001C	dup
+17	001D	ldc.i4.0
+18	001E	ldstr	"Could not generate a pawn after "
+19	0023	stelem.ref
+20	0024	dup
+21	0025	ldc.i4.1
+22	0026	ldc.i4.s	0x46
+23	0028	stloc.s	V_6 (6)
+24	002A	ldloca.s	V_6 (6)
+25	002C	call	instance string [mscorlib]System.Int32::ToString()
+26	0031	stelem.ref
+27	0032	dup
+28	0033	ldc.i4.2
+29	0034	ldstr	" tries. Last error: "
+30	0039	stelem.ref
+31	003A	dup
+32	003B	ldc.i4.3
+33	003C	ldloc.1
+34	003D	stelem.ref
+35	003E	dup
+36	003F	ldc.i4.4
+37	0040	ldstr	" Ignoring scenario requirements."
+38	0045	stelem.ref
+39	0046	call	string [mscorlib]System.String::Concat(string[])
+40	004B	call	void Verse.Log::Error(string)
+41	0050	ldc.i4.1
+42	0051	stloc.2
+43	0052	ldloc.s	V_4 (4)
+44	0054	ldc.i4.s	100
+45	0056	bne.un.s	75 (0094) ldarg.0 
+46	0058	ldc.i4.5
+47	0059	newarr	[mscorlib]System.String
+48	005E	dup
+49	005F	ldc.i4.0
+50	0060	ldstr	"Could not generate a pawn after "
+51	0065	stelem.ref
+52	0066	dup
+53	0067	ldc.i4.1
+54	0068	ldc.i4.s	100
+55	006A	stloc.s	V_6 (6)
+56	006C	ldloca.s	V_6 (6)
+57	006E	call	instance string [mscorlib]System.Int32::ToString()
+58	0073	stelem.ref
+59	0074	dup
+60	0075	ldc.i4.2
+61	0076	ldstr	" tries. Last error: "
+62	007B	stelem.ref
+63	007C	dup
+64	007D	ldc.i4.3
+65	007E	ldloc.1
+66	007F	stelem.ref
+67	0080	dup
+68	0081	ldc.i4.4
+69	0082	ldstr	" Ignoring validator."
+70	0087	stelem.ref
+71	0088	call	string [mscorlib]System.String::Concat(string[])
+72	008D	call	void Verse.Log::Error(string)
+73	0092	ldc.i4.1
+74	0093	stloc.3
+75	0094	ldarg.0
+76	0095	ldobj	Verse.PawnGenerationRequest
+77	009A	stloc.s	V_5 (5)
+78	009C	ldloca.s	V_5 (5)
+79	009E	ldloca.s	V_1 (1)
+80	00A0	ldloc.2
+81	00A1	ldloc.3
+82	00A2	call	class Verse.Pawn Verse.PawnGenerator::TryGenerateNewPawnInternal(valuetype Verse.PawnGenerationRequest&, string&, bool, bool)
+83	00A7	stloc.0
+84	00A8	ldloc.0
+85	00A9	brfalse.s	90 (00B5) ldloc.s V_4 (4)
+86	00AB	ldarg.0
+87	00AC	ldloc.s	V_5 (5)
+88	00AE	stobj	Verse.PawnGenerationRequest
+89	00B3	br.s	97 (00C4) ldloc.0 
+90	00B5	ldloc.s	V_4 (4)
+91	00B7	ldc.i4.1
+92	00B8	add
+93	00B9	stloc.s	V_4 (4)
+94	00BB	ldloc.s	V_4 (4)
+95	00BD	ldc.i4.s	0x78
+96	00BF	blt	11 (0010) ldloc.s V_4 (4)
+97	00C4	ldloc.0
+98	00C5	brtrue.s	137 (011B) ldloc.0 
+99	00C7	ldc.i4.6
+100	00C8	newarr	[mscorlib]System.String
+101	00CD	dup
+102	00CE	ldc.i4.0
+103	00CF	ldstr	"Pawn generation error: "
+104	00D4	stelem.ref
+105	00D5	dup
+106	00D6	ldc.i4.1
+107	00D7	ldloc.1
+108	00D8	stelem.ref
+109	00D9	dup
+110	00DA	ldc.i4.2
+111	00DB	ldstr	" Too many tries ("
+112	00E0	stelem.ref
+113	00E1	dup
+114	00E2	ldc.i4.3
+115	00E3	ldc.i4.s	0x78
+116	00E5	stloc.s	V_6 (6)
+117	00E7	ldloca.s	V_6 (6)
+118	00E9	call	instance string [mscorlib]System.Int32::ToString()
+119	00EE	stelem.ref
+120	00EF	dup
+121	00F0	ldc.i4.4
+122	00F1	ldstr	"), returning null. Generation request: "
+123	00F6	stelem.ref
+124	00F7	dup
+125	00F8	ldc.i4.5
+126	00F9	ldarg.0
+127	00FA	ldobj	Verse.PawnGenerationRequest
+128	00FF	stloc.s	V_7 (7)
+129	0101	ldloca.s	V_7 (7)
+130	0103	constrained.	Verse.PawnGenerationRequest
+131	0109	callvirt	instance string [mscorlib]System.Object::ToString()
+132	010E	stelem.ref
+133	010F	call	string [mscorlib]System.String::Concat(string[])
+134	0114	call	void Verse.Log::Error(string)
+135	0119	ldnull
+136	011A	ret
+137	011B	ldloc.0
+138	011C	ret

@@ -1,0 +1,11 @@
+D:\MyRimworldMods\Sane Skills\Source\obj\Debug\SaneSkills.csproj.AssemblyReference.cache
+D:\MyRimworldMods\Sane Skills\Source\obj\Debug\SaneSkills.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyRimworldMods\Sane Skills\Source\obj\Debug\SaneSkills.AssemblyInfoInputs.cache
+D:\MyRimworldMods\Sane Skills\Source\obj\Debug\SaneSkills.AssemblyInfo.cs
+D:\MyRimworldMods\Sane Skills\Source\obj\Debug\SaneSkills.csproj.CoreCompileInputs.cache
+D:\MyRimworldMods\Sane Skills\1.4\Assemblies\SaneSkills.dll
+D:\MyRimworldMods\Sane Skills\1.4\Assemblies\SaneSkills.pdb
+D:\MyRimworldMods\Sane Skills\Source\obj\Debug\SaneSkills.dll
+D:\MyRimworldMods\Sane Skills\Source\obj\Debug\SaneSkills.pdb
+D:\MyRimworldMods\Sane Skills\1.5\Assemblies\SaneSkills.dll
+D:\MyRimworldMods\Sane Skills\1.5\Assemblies\SaneSkills.pdb

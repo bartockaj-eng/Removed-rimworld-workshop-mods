@@ -1,0 +1,9 @@
+D:\MyRimworldMods\Sex Matters\HediffApplier\obj\Debug\HediffApplier.csproj.AssemblyReference.cache
+D:\MyRimworldMods\Sex Matters\HediffApplier\obj\Debug\HediffApplier.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyRimworldMods\Sex Matters\HediffApplier\obj\Debug\HediffApplier.AssemblyInfoInputs.cache
+D:\MyRimworldMods\Sex Matters\HediffApplier\obj\Debug\HediffApplier.AssemblyInfo.cs
+D:\MyRimworldMods\Sex Matters\HediffApplier\obj\Debug\HediffApplier.csproj.CoreCompileInputs.cache
+D:\MyRimworldMods\Sex Matters\1.4\Assemblies\HediffApplier.dll
+D:\MyRimworldMods\Sex Matters\1.4\Assemblies\HediffApplier.pdb
+D:\MyRimworldMods\Sex Matters\HediffApplier\obj\Debug\HediffApplier.dll
+D:\MyRimworldMods\Sex Matters\HediffApplier\obj\Debug\HediffApplier.pdb

@@ -1,0 +1,9 @@
+D:\MyRimworldMods\Slow Learning\Source\obj\Debug\SlowLearning.csproj.AssemblyReference.cache
+D:\MyRimworldMods\Slow Learning\Source\obj\Debug\SlowLearning.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyRimworldMods\Slow Learning\Source\obj\Debug\SlowLearning.AssemblyInfoInputs.cache
+D:\MyRimworldMods\Slow Learning\Source\obj\Debug\SlowLearning.AssemblyInfo.cs
+D:\MyRimworldMods\Slow Learning\Source\obj\Debug\SlowLearning.csproj.CoreCompileInputs.cache
+D:\MyRimworldMods\Slow Learning\1.4\Assemblies\SlowLearning.dll
+D:\MyRimworldMods\Slow Learning\1.4\Assemblies\SlowLearning.pdb
+D:\MyRimworldMods\Slow Learning\Source\obj\Debug\SlowLearning.dll
+D:\MyRimworldMods\Slow Learning\Source\obj\Debug\SlowLearning.pdb

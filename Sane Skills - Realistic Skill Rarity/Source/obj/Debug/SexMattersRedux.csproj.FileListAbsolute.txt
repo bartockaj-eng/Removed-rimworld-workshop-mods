@@ -1,0 +1,25 @@
+D:\MyRimworldMods\Sex Matters\1.4\Assemblies\SexMattersRedux.dll
+D:\MyRimworldMods\Sex Matters\1.4\Assemblies\SexMattersRedux.pdb
+D:\MyRimworldMods\Sex Matters\HediffApplier\obj\Debug\SexMattersRedux.csproj.AssemblyReference.cache
+D:\MyRimworldMods\Sex Matters\HediffApplier\obj\Debug\SexMattersRedux.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyRimworldMods\Sex Matters\HediffApplier\obj\Debug\SexMattersRedux.AssemblyInfoInputs.cache
+D:\MyRimworldMods\Sex Matters\HediffApplier\obj\Debug\SexMattersRedux.AssemblyInfo.cs
+D:\MyRimworldMods\Sex Matters\HediffApplier\obj\Debug\SexMattersRedux.csproj.CoreCompileInputs.cache
+D:\MyRimworldMods\Sex Matters\HediffApplier\obj\Debug\SexMattersRedux.dll
+D:\MyRimworldMods\Sex Matters\HediffApplier\obj\Debug\SexMattersRedux.pdb
+D:\MyRimworldMods\Sex Matters\Source\obj\Debug\SexMattersRedux.csproj.AssemblyReference.cache
+D:\MyRimworldMods\Sex Matters\Source\obj\Debug\SexMattersRedux.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyRimworldMods\Sex Matters\Source\obj\Debug\SexMattersRedux.AssemblyInfoInputs.cache
+D:\MyRimworldMods\Sex Matters\Source\obj\Debug\SexMattersRedux.AssemblyInfo.cs
+D:\MyRimworldMods\Sex Matters\Source\obj\Debug\SexMattersRedux.csproj.CoreCompileInputs.cache
+D:\MyRimworldMods\Sex Matters\Source\obj\Debug\SexMattersRedux.dll
+D:\MyRimworldMods\Sex Matters\Source\obj\Debug\SexMattersRedux.pdb
+D:\MyRimworldMods\Sex Matters Redux\1.4\Assemblies\SexMattersRedux.dll
+D:\MyRimworldMods\Sex Matters Redux\1.4\Assemblies\SexMattersRedux.pdb
+D:\MyRimworldMods\Sex Matters Redux\Source\obj\Debug\SexMattersRedux.csproj.AssemblyReference.cache
+D:\MyRimworldMods\Sex Matters Redux\Source\obj\Debug\SexMattersRedux.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyRimworldMods\Sex Matters Redux\Source\obj\Debug\SexMattersRedux.AssemblyInfoInputs.cache
+D:\MyRimworldMods\Sex Matters Redux\Source\obj\Debug\SexMattersRedux.AssemblyInfo.cs
+D:\MyRimworldMods\Sex Matters Redux\Source\obj\Debug\SexMattersRedux.csproj.CoreCompileInputs.cache
+D:\MyRimworldMods\Sex Matters Redux\Source\obj\Debug\SexMattersRedux.dll
+D:\MyRimworldMods\Sex Matters Redux\Source\obj\Debug\SexMattersRedux.pdb
