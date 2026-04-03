@@ -1,0 +1,197 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignatorDropdownGroupDef>
+    <defName>AirDock_SET</defName>
+  </DesignatorDropdownGroupDef>
+  
+    <ThingDef Name="AirDockBase" ParentName="BuildingBase" Abstract="True">
+		<thingClass>AirDock.AirDock</thingClass>
+		<altitudeLayer>FloorEmplacement</altitudeLayer>
+		<designatorDropdown>AirDock_SET</designatorDropdown>
+		<pathCost>10</pathCost>
+		<fillPercent>0.0</fillPercent>
+		<clearBuildingArea>false</clearBuildingArea>
+		<interactionCellOffset>(0,0,0)</interactionCellOffset>
+		<hasInteractionCell>false</hasInteractionCell>
+		<blockPlants>true</blockPlants>
+		<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		<comps>
+		  <li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<basePowerConsumption>1000</basePowerConsumption>
+		  </li>
+		  <li Class="CompProperties_Flickable" />
+		</comps>
+		<rotatable>false</rotatable>
+		<destroyable>true</destroyable>
+		<designationCategory>Building</designationCategory>
+	</ThingDef>
+  
+  <ThingDef ParentName="AirDockBase">
+    <defName>AirDock_Tiny</defName>
+    <label>AirDock(Tiny)</label>
+    <statBases>
+	  <MaxHitPoints>1000</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild Inherit="false">500</WorkToBuild>
+    </statBases>
+    <graphicData>
+      <texPath>Things/tiny</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+	  <drawSize>(3,3)</drawSize>
+    </graphicData>
+	<size>(3,3)</size>
+    <costList>
+      <Steel>1500</Steel>
+      <Silver>1000</Silver>
+      <ComponentIndustrial>15</ComponentIndustrial>
+    </costList>
+    <building>
+	<defaultStorageSettings>
+        <priority>Important</priority>
+        <filter>
+          <categories>
+          </categories>
+          <specialFiltersToDisallow>
+          </specialFiltersToDisallow>
+        </filter>
+      </defaultStorageSettings>
+      <isEdifice>false</isEdifice>
+      <blueprintGraphicData>
+        <texPath>Things/tiny</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawRotated>false</drawRotated>
+		<drawSize>(3,3)</drawSize>
+      </blueprintGraphicData>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="AirDockBase">
+    <defName>AirDock_Small</defName>
+    <label>AirDock(Small)</label>
+    <statBases>
+	  <MaxHitPoints>1200</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild Inherit="false">700</WorkToBuild>
+    </statBases>
+    <graphicData>
+      <texPath>Things/small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+	  <drawSize>(5,5)</drawSize>
+    </graphicData>
+	<size>(5,5)</size>
+    <costList>
+      <Steel>1700</Steel>
+      <Silver>1200</Silver>
+      <ComponentIndustrial>20</ComponentIndustrial>
+    </costList>
+    <building>
+      <isEdifice>false</isEdifice>
+      <blueprintGraphicData>
+        <texPath>Things/small</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawRotated>false</drawRotated>
+		<drawSize>(5,5)</drawSize>
+      </blueprintGraphicData>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="AirDockBase">
+    <defName>AirDock_Medium</defName>
+    <label>AirDock(Medium)</label>
+    <statBases>
+	  <MaxHitPoints>1500</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild Inherit="false">1000</WorkToBuild>
+    </statBases>
+    <graphicData>
+      <texPath>Things/medium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+	  <drawSize>(7,7)</drawSize>
+    </graphicData>
+	<size>(7,7)</size>
+    <costList>
+      <Steel>2000</Steel>
+      <Silver>1800</Silver>
+      <ComponentIndustrial>40</ComponentIndustrial>
+    </costList>
+    <building>
+      <isEdifice>false</isEdifice>
+      <blueprintGraphicData>
+        <texPath>Things/medium</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawRotated>false</drawRotated>
+		<drawSize>(7,7)</drawSize>
+      </blueprintGraphicData>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="AirDockBase">
+    <defName>AirDock_Big</defName>
+    <label>AirDock(Big)</label>
+    <statBases>
+	  <MaxHitPoints>3000</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild Inherit="false">1500</WorkToBuild>
+    </statBases>
+    <graphicData>
+      <texPath>Things/big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+	  <drawSize>(11,11)</drawSize>
+    </graphicData>
+	<size>(11,11)</size>
+    <costList>
+      <Steel>2500</Steel>
+      <Silver>2000</Silver>
+      <ComponentIndustrial>65</ComponentIndustrial>
+    </costList>
+    <building>
+      <isEdifice>false</isEdifice>
+      <blueprintGraphicData>
+        <texPath>Things/big</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawRotated>false</drawRotated>
+		<drawSize>(11,11)</drawSize>
+      </blueprintGraphicData>
+    </building>
+  </ThingDef>
+  
+<ThingDef ParentName="BuildingBase">
+    <defName>AirDock_Mega</defName>
+    <label>AirDock(Mega)</label>
+    <statBases>
+	  <MaxHitPoints>5000</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild Inherit="false">3000</WorkToBuild>
+    </statBases>
+    <graphicData>
+      <texPath>Things/mega</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+	  <drawSize>(21,21)</drawSize>
+    </graphicData>
+	<size>(21,21)</size>
+    <costList>
+      <Steel>4500</Steel>
+      <Silver>4000</Silver>
+      <ComponentIndustrial>100</ComponentIndustrial>
+    </costList>
+    <building>
+      <isEdifice>false</isEdifice>
+      <blueprintGraphicData>
+        <texPath>Things/mega</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawRotated>false</drawRotated>
+		<drawSize>(21,21)</drawSize>
+      </blueprintGraphicData>
+    </building>
+  </ThingDef>
+
+</Defs>

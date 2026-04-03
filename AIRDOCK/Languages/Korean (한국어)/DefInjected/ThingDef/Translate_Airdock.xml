@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <AirDock.label>격납고</AirDock.label>
+  <AirDock_Tiny.label>지하격납고(초소형)</AirDock_Tiny.label>
+  <AirDock_Small.label>지하격납고(소형)</AirDock_Small.label>
+  <AirDock_Medium.label>지하격납고(중형)</AirDock_Medium.label>
+  <AirDock_Big.label>지하격납고(대형)</AirDock_Big.label>
+  <AirDock_Mega.label>지하격납고(초대형)</AirDock_Mega.label>
+  
+  <Air_cargo.label>격납고(소형)</Air_cargo.label>
+  <Air_cargo.description>격납고는 항공기를 넣어 두고, 점검 및 정비 등을 하는 건물이다.</Air_cargo.description>
+  <Air_cargo_two.label>격납고(대형)</Air_cargo_two.label>
+  <Air_cargo.description>격납고는 항공기를 넣어 두고, 점검 및 정비 등을 하는 건물이다.</Air_cargo.description>
+</LanguageData>

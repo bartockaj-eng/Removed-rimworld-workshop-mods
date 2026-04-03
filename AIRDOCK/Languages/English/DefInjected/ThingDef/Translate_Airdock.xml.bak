@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+  <!-- Air Docks -->
+  <AirDock.label>Hangar</AirDock.label>
+  <AirDock_Tiny.label>Underground Hangar (Tiny)</AirDock_Tiny.label>
+  <AirDock_Small.label>Underground Hangar (Small)</AirDock_Small.label>
+  <AirDock_Medium.label>Underground Hangar (Medium)</AirDock_Medium.label>
+  <AirDock_Big.label>Underground Hangar (Large)</AirDock_Big.label>
+  <AirDock_Mega.label>Underground Hangar (Mega)</AirDock_Mega.label>
+
+  <!-- Air Cargo Buildings -->
+  <Air_cargo.label>Hangar (Small)</Air_cargo.label>
+  <Air_cargo.description>A building to store aircraft and perform inspections and maintenance.</Air_cargo.description>
+  
+  <Air_cargo_two.label>Hangar (Large)</Air_cargo_two.label>
+  <Air_cargo_two.description>A building to store aircraft and perform inspections and maintenance.</Air_cargo_two.description>
+</LanguageData>

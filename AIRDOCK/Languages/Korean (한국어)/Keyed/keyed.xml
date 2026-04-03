@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+    <!-- 슬롯 출격 준비 -->
+	
+  <Slot_Set_Label_1>1</Slot_Set_Label_1>
+  <Slot_Set_Label_2>2</Slot_Set_Label_2>
+  <Slot_Set_Label_3>3</Slot_Set_Label_3>
+  <Slot_Set_Label_4>4</Slot_Set_Label_4>
+  <Slot_Set_Label_5>5</Slot_Set_Label_5>
+  
+  <Slot_Set_Desc_1>1</Slot_Set_Desc_1>
+  <Slot_Set_Desc_2>2</Slot_Set_Desc_2>
+  <Slot_Set_Desc_3>3</Slot_Set_Desc_3>
+  <Slot_Set_Desc_4>4</Slot_Set_Desc_4>
+  <Slot_Set_Desc_5>5</Slot_Set_Desc_5>
+  
+  
+  <Slot_Launch_Label_1>출격 준비 1: {0}</Slot_Launch_Label_1>
+  <Slot_Launch_Label_2>출격 준비 2: {0}</Slot_Launch_Label_2>
+  <Slot_Launch_Label_3>출격 준비 3: {0}</Slot_Launch_Label_3>
+  <Slot_Launch_Label_4>출격 준비 4: {0}</Slot_Launch_Label_4>
+  <Slot_Launch_Label_5>출격 준비 5: {0}</Slot_Launch_Label_5>
+
+  <Slot_Launch_Desc_1>슬롯 1에서 {0} 셔틀을 출격시킵니다.</Slot_Launch_Desc_1>
+  <Slot_Launch_Desc_2>슬롯 2에서 {0} 셔틀을 출격시킵니다.</Slot_Launch_Desc_2>
+  <Slot_Launch_Desc_3>슬롯 3에서 {0} 셔틀을 출격시킵니다.</Slot_Launch_Desc_3>
+  <Slot_Launch_Desc_4>슬롯 4에서 {0} 셔틀을 출격시킵니다.</Slot_Launch_Desc_4>
+  <Slot_Launch_Desc_5>슬롯 5에서 {0} 셔틀을 출격시킵니다.</Slot_Launch_Desc_5>
+
+  <!-- 방향 -->
+  <Dock_Rotate_North_Label>북쪽</Dock_Rotate_North_Label>
+  <Dock_Rotate_North_Desc>도크를 북쪽으로 회전</Dock_Rotate_North_Desc>
+
+  <Dock_Rotate_East_Label>동쪽</Dock_Rotate_East_Label>
+  <Dock_Rotate_East_Desc>도크를 동쪽으로 회전</Dock_Rotate_East_Desc>
+
+  <Dock_Rotate_South_Label>남쪽</Dock_Rotate_South_Label>
+  <Dock_Rotate_South_Desc>도크를 남쪽으로 회전</Dock_Rotate_South_Desc>
+
+  <Dock_Rotate_West_Label>서쪽</Dock_Rotate_West_Label>
+  <Dock_Rotate_West_Desc>도크를 서쪽으로 회전</Dock_Rotate_West_Desc>
+  
+    <Unslot>슬롯 해제</Unslot>
+    <SlotEmpty>슬롯 {0}이 비워졌습니다.</SlotEmpty>
+	
+<InsertShuttleLabel>등록 {0}</InsertShuttleLabel>
+<ReadyToLaunchLabel>출격 준비 {0}</ReadyToLaunchLabel>
+<InsertShuttleDesc>슬롯에 왕복선을 등록합니다.</InsertShuttleDesc>
+<DropShuttleDesc>슬롯에서 셔틀을 출격시킵니다.</DropShuttleDesc>
+	
+	 <RegisterShuttleLabel>등록 {0}</RegisterShuttleLabel>
+    <RegisterShuttleDesc>슬롯 {0}에 셔틀을 등록합니다.</RegisterShuttleDesc>
+	
+	<ShuttleOnAnotherMapLabel>다른 맵에 있는 셔틀</ShuttleOnAnotherMapLabel>
+    <ShuttleOnAnotherMapDesc>셔틀이 현재 {0}에 있어서 여기서 사용할 수 없습니다.</ShuttleOnAnotherMapDesc>
+	
+	 <ShuttleAssigned>셔틀을 슬롯 {0}에 할당했습니다: {1}</ShuttleAssigned>
+	 <ShuttleAleadyAssigned>이미 등록된 셔틀입니다.</ShuttleAleadyAssigned>
+	 
+	 
+    <NoShuttleHere>여기에 셔틀이 없습니다.</NoShuttleHere>
+    <SelectShuttleTool>셔틀 선택</SelectShuttleTool>
+	
+	<CannotInsertShuttle>셔틀을 삽입할 수 없습니다: 엔진을 찾을 수 없음.</CannotInsertShuttle>
+    <FailedInsertShuttle>{0}을 innerContainer에 삽입하지 못했습니다.</FailedInsertShuttle>
+	
+    <CannotDropShuttleEngine>셔틀을 배출할 수 없습니다: 엔진을 찾을 수 없음.</CannotDropShuttleEngine>
+    <CannotDropShuttleObstacle>이곳에는 장애물이 있어 셔틀을 배출할 수 없습니다.</CannotDropShuttleObstacle>
+	
+	 <No_power>전력없음.</No_power>
+	
+  
+</LanguageData>

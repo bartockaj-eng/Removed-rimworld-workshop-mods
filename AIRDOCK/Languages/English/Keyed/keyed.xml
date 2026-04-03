@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+      <!-- Slot Deployment Preparation -->
+    <Slot_Set_Label_1>Slot 1</Slot_Set_Label_1>
+    <Slot_Set_Label_2>Slot 2</Slot_Set_Label_2>
+    <Slot_Set_Label_3>Slot 3</Slot_Set_Label_3>
+    <Slot_Set_Label_4>Slot 4</Slot_Set_Label_4>
+    <Slot_Set_Label_5>Slot 5</Slot_Set_Label_5>
+
+    <Slot_Set_Desc_1>Slot 1</Slot_Set_Desc_1>
+    <Slot_Set_Desc_2>Slot 2</Slot_Set_Desc_2>
+    <Slot_Set_Desc_3>Slot 3</Slot_Set_Desc_3>
+    <Slot_Set_Desc_4>Slot 4</Slot_Set_Desc_4>
+    <Slot_Set_Desc_5>Slot 5</Slot_Set_Desc_5>
+
+    <Slot_Launch_Label_1>Ready to Launch 1: {0}</Slot_Launch_Label_1>
+    <Slot_Launch_Label_2>Ready to Launch 2: {0}</Slot_Launch_Label_2>
+    <Slot_Launch_Label_3>Ready to Launch 3: {0}</Slot_Launch_Label_3>
+    <Slot_Launch_Label_4>Ready to Launch 4: {0}</Slot_Launch_Label_4>
+    <Slot_Launch_Label_5>Ready to Launch 5: {0}</Slot_Launch_Label_5>
+
+    <Slot_Launch_Desc_1>Launch shuttle from slot 1: {0}</Slot_Launch_Desc_1>
+    <Slot_Launch_Desc_2>Launch shuttle from slot 2: {0}</Slot_Launch_Desc_2>
+    <Slot_Launch_Desc_3>Launch shuttle from slot 3: {0}</Slot_Launch_Desc_3>
+    <Slot_Launch_Desc_4>Launch shuttle from slot 4: {0}</Slot_Launch_Desc_4>
+    <Slot_Launch_Desc_5>Launch shuttle from slot 5: {0}</Slot_Launch_Desc_5>
+
+    <!-- Dock Rotation -->
+    <Dock_Rotate_North_Label>North</Dock_Rotate_North_Label>
+    <Dock_Rotate_North_Desc>Rotate dock to the north</Dock_Rotate_North_Desc>
+
+    <Dock_Rotate_East_Label>East</Dock_Rotate_East_Label>
+    <Dock_Rotate_East_Desc>Rotate dock to the east</Dock_Rotate_East_Desc>
+
+    <Dock_Rotate_South_Label>South</Dock_Rotate_South_Label>
+    <Dock_Rotate_South_Desc>Rotate dock to the south</Dock_Rotate_South_Desc>
+
+    <Dock_Rotate_West_Label>West</Dock_Rotate_West_Label>
+    <Dock_Rotate_West_Desc>Rotate dock to the west</Dock_Rotate_West_Desc>
+
+    <Unslot>Unslot</Unslot>
+    <SlotEmpty>Slot {0} is now empty.</SlotEmpty>
+
+    <InsertShuttleLabel>Register {0}</InsertShuttleLabel>
+    <ReadyToLaunchLabel>Ready to Launch {0}</ReadyToLaunchLabel>
+    <InsertShuttleDesc>Register a shuttle in the slot.</InsertShuttleDesc>
+    <DropShuttleDesc>Launch the shuttle from the slot.</DropShuttleDesc>
+
+    <RegisterShuttleLabel>Register {0}</RegisterShuttleLabel>
+    <RegisterShuttleDesc>Register a shuttle in slot {0}.</RegisterShuttleDesc>
+
+    <ShuttleOnAnotherMapLabel>Shuttle on another map</ShuttleOnAnotherMapLabel>
+    <ShuttleOnAnotherMapDesc>Shuttle is currently on {0} and cannot be used here.</ShuttleOnAnotherMapDesc>
+
+    <ShuttleAssigned>Shuttle assigned to slot {0}: {1}</ShuttleAssigned>
+    <ShuttleAleadyAssigned>Shuttle is already assigned.</ShuttleAleadyAssigned>
+
+    <NoShuttleHere>No shuttle here.</NoShuttleHere>
+    <SelectShuttleTool>Select Shuttle Tool</SelectShuttleTool>
+
+    <CannotInsertShuttle>Cannot insert shuttle: Engine not found.</CannotInsertShuttle>
+    <FailedInsertShuttle>Failed to insert {0} into innerContainer.</FailedInsertShuttle>
+
+    <CannotDropShuttleEngine>Cannot drop shuttle: Engine not found.</CannotDropShuttleEngine>
+    <CannotDropShuttleObstacle>Cannot drop shuttle here: Obstacle detected.</CannotDropShuttleObstacle>
+
+    <No_power>No power.</No_power>
+  
+</LanguageData>

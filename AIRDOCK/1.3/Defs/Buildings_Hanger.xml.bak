@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignatorDropdownGroupDef>
+    <defName>Hanger_SET</defName>
+  </DesignatorDropdownGroupDef>
+
+<ThingDef ParentName="BuildingBase">
+    <defName>Air_cargo</defName>
+    <label>Air Hanger</label>
+	<description>A cathode ray tube display for showing moving pictures with sound. Even on the rimworlds, there is often an old transmitter running something at least marginally interesting.</description>
+    <thingClass>AirDock.Building_HangerBuilding</thingClass>
+	<graphicData>
+      <texPath>Things/Air_cargo/Aircargo</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+      <drawSize>(7.2,7.2)</drawSize>
+    </graphicData>
+	<castEdgeShadows>True</castEdgeShadows>
+    <altitudeLayer>Building</altitudeLayer>
+	<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <rotatable>true</rotatable>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <WorkToBuild>8000</WorkToBuild>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(5,5)</size>
+    <designationCategory>Ship</designationCategory>
+    <hasInteractionCell>false</hasInteractionCell>
+    <interactionCellOffset>(1,0,0)</interactionCellOffset>
+    <placeWorkers>
+      <li>PlaceWorker_WatchAreahangar</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <watchBuildingStandDistanceRange>3~7</watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>5</watchBuildingStandRectWidth>
+    </building>
+    <costStuffCount>40</costStuffCount>
+	<stuffCategories>
+      <li>Fabric</li>
+      <li>Leathery</li>
+    </stuffCategories>
+    <costList>
+      <Steel>1000</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<uiIconScale>0.9</uiIconScale>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </ThingDef>
+  
+  <ThingDef ParentName="BuildingBase">
+    <defName>Air_cargo_two</defName>
+    <label>Air Hanger2</label>
+	<description>A cathode ray tube display for showing moving pictures with sound. Even on the rimworlds, there is often an old transmitter running something at least marginally interesting.</description>
+    <thingClass>AirDock.Building_HangerBuilding</thingClass>
+	<graphicData>
+      <texPath>Things/Air_cargo/AirHanger</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <shaderType>CutoutComplex</shaderType>
+	  <shadowData>
+          <volume>(5, 0, 5)</volume>
+          <offset>(0,0,-1)</offset>
+        </shadowData>
+      <drawSize>(9,9)</drawSize>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+	<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+    <rotatable>true</rotatable>
+    <passability>Impassable</passability>
+    <blockWind>true</blockWind>
+    <fillPercent>0.5</fillPercent>
+    <canOverlapZones>false</canOverlapZones>
+    <statBases>
+      <WorkToBuild>8000</WorkToBuild>
+      <MaxHitPoints>2000</MaxHitPoints>
+      <Flammability>0</Flammability>
+    </statBases>
+    <size>(9,9)</size>
+    <designationCategory>Ship</designationCategory>
+    <hasInteractionCell>false</hasInteractionCell>
+    <interactionCellOffset>(1,0,0)</interactionCellOffset>
+    <placeWorkers>
+      <li>PlaceWorker_WatchAreahangar</li>
+    </placeWorkers>
+    <comps>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <shortCircuitInRain>true</shortCircuitInRain>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable"/>
+    </comps>
+    <defaultPlacingRot>South</defaultPlacingRot>
+    <building>
+      <watchBuildingStandDistanceRange>5~13</watchBuildingStandDistanceRange>
+      <watchBuildingStandRectWidth>9</watchBuildingStandRectWidth>
+    </building>
+    <costStuffCount>40</costStuffCount>
+	<stuffCategories>
+      <li>Metallic</li>
+    </stuffCategories>
+    <costList>
+      <Steel>1000</Steel>
+      <ComponentIndustrial>3</ComponentIndustrial>
+    </costList>
+    <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+	<uiIconScale>0.9</uiIconScale>
+    <constructionSkillPrerequisite>8</constructionSkillPrerequisite>
+  </ThingDef>
+  
+  <!--ThingDef ParentName="BuildingBase">
+    <defName>Air_cargo_light</defName>
+    <label>Air_cargo_light</label>
+	<graphicData>
+	  <texPath>Things/Air_cargo/airdocklight</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <damageData>
+        <rect>(0.2,0.2,0.6,0.6)</rect>
+      </damageData>
+    </graphicData>
+    <thingClass>Building</thingClass>
+    <altitudeLayer>FloorEmplacement</altitudeLayer>
+    <passability>Standable</passability>
+    <building>
+      <isInert>true</isInert>
+      <isEdifice>false</isEdifice>
+    </building>
+    <selectable>false</selectable>
+    <size>(1,1)</size>
+    <costList>
+      <Steel>10</Steel>
+    </costList>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <comps>
+      <li Class="CompProperties_Glower">
+        <glowRadius>12</glowRadius>
+        <glowColor>(255,255,255,0)</glowColor>
+      </li>
+    </comps>
+    <rotatable>false</rotatable>
+    <clearBuildingArea>false</clearBuildingArea>
+  </ThingDef-->
+
+</Defs>

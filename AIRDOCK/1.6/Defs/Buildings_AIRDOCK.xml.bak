@@ -1,0 +1,232 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <DesignatorDropdownGroupDef>
+    <defName>AirDock_SET</defName>
+  </DesignatorDropdownGroupDef>
+  
+  <ThingDef Name="AirDockBase" ParentName="BuildingBase" Abstract="True">
+    <thingClass>AirDock.AirDock</thingClass>
+    <altitudeLayer>Building</altitudeLayer>
+	<designatorDropdown>AirDock_SET</designatorDropdown>
+    <passability>Standable</passability>
+    <castEdgeShadows>false</castEdgeShadows>
+    <fillPercent>0.0</fillPercent>
+    <canOverlapZones>true</canOverlapZones>
+    <useHitPoints>false</useHitPoints>
+    <statBases>
+      <WorkToBuild>12500</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>-60</Beauty>
+      <Cleanliness>-20</Cleanliness>
+    </statBases>
+
+    <size>(3,3)</size>
+    <costList>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Steel>245</Steel>
+    </costList>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <hasInteractionCell>false</hasInteractionCell>
+	<clearBuildingArea>false</clearBuildingArea>
+	<stuffCategories>
+		  <li>Metallic</li>
+		</stuffCategories>
+		<comps>
+		  <li Class="CompProperties_Power">
+			<compClass>CompPowerTrader</compClass>
+			<basePowerConsumption>1000</basePowerConsumption>
+		  </li>
+		  <li Class="CompProperties_Flickable" />
+		</comps>
+		<rotatable>false</rotatable>
+		<destroyable>true</destroyable>
+		<designationCategory>Ship</designationCategory>
+  </ThingDef>
+  
+  
+    <ThingDef ParentName="BuildingBase">
+    <defName>AirDock_Tiny</defName>
+    <label>AirDock(Tiny)</label>
+    <description>Allows digging deep into the planet for exploration and mining. Requires power.</description>
+    <thingClass>Building_Shaft</thingClass>
+    <graphicData>
+      <texPath>Things/Building/Ship/ShipComputerCore</texPath>
+      <graphicClass>Graphic_Multi</graphicClass>
+      <drawSize>(3,3)</drawSize>
+      <shadowData>
+        <volume>(2.76, 0.5, 2.66)</volume>
+        <offset>(0,0,-0.05)</offset>
+      </shadowData>
+    </graphicData>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>Standable</passability>
+    <castEdgeShadows>true</castEdgeShadows>
+    <fillPercent>0.7</fillPercent>
+    <canOverlapZones>true</canOverlapZones>
+    <useHitPoints>false</useHitPoints>
+    <destroyable>false</destroyable>
+    <statBases>
+      <WorkToBuild>12500</WorkToBuild>
+      <Flammability>0</Flammability>
+      <Beauty>-60</Beauty>
+      <Cleanliness>-20</Cleanliness>
+    </statBases>
+
+    <size>(3,3)</size>
+    <costList>
+      <ComponentIndustrial>5</ComponentIndustrial>
+      <Steel>245</Steel>
+    </costList>
+	<comps>
+      <li Class="CompProperties_HeatPusher">
+        <compClass>CompHeatPusherPowered</compClass>
+        <heatPerSecond>55</heatPerSecond>
+        <heatPushMaxTemperature>1500</heatPushMaxTemperature>
+      </li>
+      <li Class="CompProperties_Glower">
+        <glowRadius>6</glowRadius>
+        <glowColor>(255, 255, 240, 255)</glowColor>
+      </li>
+      <li Class="CompProperties_Power">
+        <compClass>CompPowerTrader</compClass>
+        <basePowerConsumption>200</basePowerConsumption>
+      </li>
+      <li Class="CompProperties_Flickable" />
+    </comps>
+    <leaveResourcesWhenKilled>false</leaveResourcesWhenKilled>
+    <designationCategory>Production</designationCategory>
+    <hasInteractionCell>false</hasInteractionCell>
+    <researchPrerequisites>
+      <li>Smithing</li>
+    </researchPrerequisites>
+
+	<hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-2)</interactionCellOffset>
+  </ThingDef>
+  
+  <ThingDef ParentName="AirDockBase">
+    <defName>AirDock_Small</defName>
+    <label>AirDock(Small)</label>
+    <statBases>
+	  <MaxHitPoints>1200</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild Inherit="false">700</WorkToBuild>
+    </statBases>
+    <graphicData>
+      <texPath>Things/small</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+	  <drawSize>(5,5)</drawSize>
+    </graphicData>
+	<size>(5,5)</size>
+    <costList>
+      <Steel>1700</Steel>
+      <Silver>1200</Silver>
+      <ComponentIndustrial>20</ComponentIndustrial>
+    </costList>
+    <building>
+      <isEdifice>false</isEdifice>
+      <blueprintGraphicData>
+        <texPath>Things/small</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawRotated>false</drawRotated>
+		<drawSize>(5,5)</drawSize>
+      </blueprintGraphicData>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="AirDockBase">
+    <defName>AirDock_Medium</defName>
+    <label>AirDock(Medium)</label>
+    <statBases>
+	  <MaxHitPoints>1500</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild Inherit="false">1000</WorkToBuild>
+    </statBases>
+    <graphicData>
+      <texPath>Things/medium</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+	  <drawSize>(7,7)</drawSize>
+    </graphicData>
+	<size>(7,7)</size>
+    <costList>
+      <Steel>2000</Steel>
+      <Silver>1800</Silver>
+      <ComponentIndustrial>40</ComponentIndustrial>
+    </costList>
+    <building>
+      <isEdifice>false</isEdifice>
+      <blueprintGraphicData>
+        <texPath>Things/medium</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawRotated>false</drawRotated>
+		<drawSize>(7,7)</drawSize>
+      </blueprintGraphicData>
+    </building>
+  </ThingDef>
+  
+  <ThingDef ParentName="AirDockBase">
+    <defName>AirDock_Big</defName>
+    <label>AirDock(Big)</label>
+    <statBases>
+	  <MaxHitPoints>3000</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild Inherit="false">1500</WorkToBuild>
+    </statBases>
+    <graphicData>
+      <texPath>Things/big</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+	  <drawSize>(11,11)</drawSize>
+    </graphicData>
+	<size>(11,11)</size>
+    <costList>
+      <Steel>2500</Steel>
+      <Silver>2000</Silver>
+      <ComponentIndustrial>65</ComponentIndustrial>
+    </costList>
+    <building>
+      <isEdifice>false</isEdifice>
+      <blueprintGraphicData>
+        <texPath>Things/big</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawRotated>false</drawRotated>
+		<drawSize>(11,11)</drawSize>
+      </blueprintGraphicData>
+    </building>
+  </ThingDef>
+  
+<ThingDef ParentName="AirDockBase">
+    <defName>AirDock_Mega</defName>
+    <label>AirDock(Mega)</label>
+    <statBases>
+	  <MaxHitPoints>5000</MaxHitPoints>
+      <Flammability>0</Flammability>
+      <WorkToBuild Inherit="false">3000</WorkToBuild>
+    </statBases>
+    <graphicData>
+      <texPath>Things/mega</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawRotated>false</drawRotated>
+	  <drawSize>(21,21)</drawSize>
+    </graphicData>
+	<size>(21,21)</size>
+    <costList>
+      <Steel>4500</Steel>
+      <Silver>4000</Silver>
+      <ComponentIndustrial>100</ComponentIndustrial>
+    </costList>
+    <building>
+      <isEdifice>false</isEdifice>
+      <blueprintGraphicData>
+        <texPath>Things/mega</texPath>
+        <graphicClass>Graphic_Single</graphicClass>
+        <drawRotated>false</drawRotated>
+		<drawSize>(21,21)</drawSize>
+      </blueprintGraphicData>
+    </building>
+  </ThingDef>
+
+</Defs>

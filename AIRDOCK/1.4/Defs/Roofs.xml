@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+  <RoofDef>
+    <defName>AR_Roof</defName>
+   <label>AR steel roof</label>
+	<isThickRoof>true</isThickRoof>
+	<isNatural>false</isNatural>
+	<filthLeaving>Filth_RubbleBuilding</filthLeaving>
+	<soundPunchThrough>Roof_Collapse</soundPunchThrough>
+
+    <!--
+    <label>rock roof (thin)</label>
+    <isThickRoof>false</isThickRoof>
+    <isNatural>true</isNatural>
+    <filthLeaving>Filth_RubbleRock</filthLeaving>
+    <soundPunchThrough>Roof_Collapse</soundPunchThrough>
+	-->
+    
+	<!--
+    <label>overhead mountain</label>
+    <isThickRoof>true</isThickRoof>
+    <isNatural>true</isNatural>
+    <collapseLeavingThingDef>CollapsedRocks</collapseLeavingThingDef>
+    <filthLeaving>Filth_RubbleRock</filthLeaving>
+	-->
+	
+  </RoofDef>
+
+</Defs>
