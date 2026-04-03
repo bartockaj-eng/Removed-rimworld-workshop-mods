@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!---->
+	<GenStepDef>
+		<defName>AtmosphericProjector</defName>
+		<order>1490</order>
+		<genStep Class="TerraformingAsteroids.GenStep_AtmosphericProjector">
+		</genStep>
+	</GenStepDef>
+	<!---->
+</Defs>

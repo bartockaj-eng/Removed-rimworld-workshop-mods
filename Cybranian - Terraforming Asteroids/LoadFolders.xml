@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<loadFolders>
+	<v1.6>
+		<li>/</li>
+		<li>1.6</li>
+		<li IfModNotActive="VanillaExpanded.Temperature">1.6/Dependency</li>
+	</v1.6>
+</loadFolders>

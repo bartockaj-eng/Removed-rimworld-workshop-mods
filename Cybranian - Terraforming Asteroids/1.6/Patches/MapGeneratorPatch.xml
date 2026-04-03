@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<!---->
+	<Operation Class="PatchOperationSequence">
+		<success>Normal</success>
+		<operations>
+			<!---->
+			<li Class="PatchOperationAdd">
+				<xpath>*/MapGeneratorDef[defName="AsteroidBasic"]/genSteps</xpath>
+				<value>
+					<li>AtmosphericProjector</li>
+				</value>
+			</li>
+			<!---->
+		</operations>
+	</Operation>
+	<!---->
+</Patch>

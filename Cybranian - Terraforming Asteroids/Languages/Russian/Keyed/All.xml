@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<TerraformingAsteroids.TerraformingAsteroidsMod>Terraforming Asteroids</TerraformingAsteroids.TerraformingAsteroidsMod>
+	<!---->
+	<TerraformingAsteroids.Settings.ResetSettings>Сбросить настройки</TerraformingAsteroids.Settings.ResetSettings>
+	<TerraformingAsteroids.Settings.TerraformingSpeedFactor>Скорость терраформинга: {0}</TerraformingAsteroids.Settings.TerraformingSpeedFactor>
+	<TerraformingAsteroids.Settings.TerraformingFuelConsumptionFactor>Расход топлива при терраформировании: {0}</TerraformingAsteroids.Settings.TerraformingFuelConsumptionFactor>
+	<TerraformingAsteroids.Settings.TerraformingPowerConsumptionFactor>Расход энергии при терраформировании: {0}</TerraformingAsteroids.Settings.TerraformingPowerConsumptionFactor>
+	<TerraformingAsteroids.Settings.AsteroidTerraformerChance>Шанс появления атмосферного генератора на астероидах: {0}</TerraformingAsteroids.Settings.AsteroidTerraformerChance>
+	<!---->
+	<TerraformingAsteroids.CompAtmosphericProjector.CompInspectStringExtra>Прогресс терраформирования: {0}</TerraformingAsteroids.CompAtmosphericProjector.CompInspectStringExtra>
+	<!---->
+	<TerraformingAsteroids.Gizmo_SetPlantLevel.Title>Растительность</TerraformingAsteroids.Gizmo_SetPlantLevel.Title>
+	<!---->
+	<TerraformingAsteroids.Gizmo_SetPowerLevel.Title>Мощность</TerraformingAsteroids.Gizmo_SetPowerLevel.Title>
+	<!---->
+	<TerraformingAsteroids.CompAtmosphericProjector.SelectBiome.Tip>Текущий биом: {0}\n\nБиом, выбранный как шаблон для терраформинга почвы и растительности.</TerraformingAsteroids.CompAtmosphericProjector.SelectBiome.Tip>
+	<TerraformingAsteroids.CompAtmosphericProjector.SelectStone.Tip>Текущий камень: {0}\n\nМашина будет выбирать данный тип камня в процессе терраформирования местности.</TerraformingAsteroids.CompAtmosphericProjector.SelectStone.Tip>
+	<TerraformingAsteroids.CompAtmosphericProjector.ToggleChangeTerrainTip>Заменять грунт при терраформировании: {0}</TerraformingAsteroids.CompAtmosphericProjector.ToggleChangeTerrainTip>
+	<TerraformingAsteroids.CompAtmosphericProjector.ToggleGreenUpTip>Посадка растений при терраформировании: {0}</TerraformingAsteroids.CompAtmosphericProjector.ToggleGreenUpTip>
+	<TerraformingAsteroids.CompAtmosphericProjector.ToggleIgroneUnnaturalTerrainTip>Игнорировать неприродные покрытия: {0}</TerraformingAsteroids.CompAtmosphericProjector.ToggleIgroneUnnaturalTerrainTip>
+	<!---->
+</LanguageData>

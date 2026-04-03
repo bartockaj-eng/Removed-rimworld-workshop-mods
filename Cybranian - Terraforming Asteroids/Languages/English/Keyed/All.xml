@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+	<!---->
+	<TerraformingAsteroids.TerraformingAsteroidsMod>Terraforming Asteroids</TerraformingAsteroids.TerraformingAsteroidsMod>
+	<!---->
+	<TerraformingAsteroids.Settings.ResetSettings>Reset settings</TerraformingAsteroids.Settings.ResetSettings>
+	<TerraformingAsteroids.Settings.TerraformingSpeedFactor>Terraforming speed: {0}</TerraformingAsteroids.Settings.TerraformingSpeedFactor>
+	<TerraformingAsteroids.Settings.TerraformingFuelConsumptionFactor>Fuel consumption during terraforming: {0}</TerraformingAsteroids.Settings.TerraformingFuelConsumptionFactor>
+	<TerraformingAsteroids.Settings.TerraformingPowerConsumptionFactor>Energy consumption during terraforming: {0}</TerraformingAsteroids.Settings.TerraformingPowerConsumptionFactor>
+	<TerraformingAsteroids.Settings.AsteroidTerraformerChance>Chance of atmospheric generator spawning on asteroids: {0}</TerraformingAsteroids.Settings.AsteroidTerraformerChance>
+	<!---->
+	<TerraformingAsteroids.CompAtmosphericProjector.CompInspectStringExtra>Terraforming progress: {0}</TerraformingAsteroids.CompAtmosphericProjector.CompInspectStringExtra>
+	<!---->
+	<TerraformingAsteroids.Gizmo_SetPlantLevel.Title>Vegetation</TerraformingAsteroids.Gizmo_SetPlantLevel.Title>
+	<!---->
+	<TerraformingAsteroids.Gizmo_SetPowerLevel.Title>Power</TerraformingAsteroids.Gizmo_SetPowerLevel.Title>
+	<!---->
+	<TerraformingAsteroids.CompAtmosphericProjector.SelectBiome.Tip>Current biome: {0}\n\nThe biome selected as a template for terraforming soil and vegetation.</TerraformingAsteroids.CompAtmosphericProjector.SelectBiome.Tip>
+	<TerraformingAsteroids.CompAtmosphericProjector.SelectStone.Tip>Current rock: {0}\n\nThe machine will select this rock type when terraforming the terrain.</TerraformingAsteroids.CompAtmosphericProjector.SelectStone.Tip>
+	<TerraformingAsteroids.CompAtmosphericProjector.ToggleChangeTerrainTip>Replace soil when terraforming: {0}</TerraformingAsteroids.CompAtmosphericProjector.ToggleChangeTerrainTip>
+	<TerraformingAsteroids.CompAtmosphericProjector.ToggleGreenUpTip>Planting during terraforming: {0}</TerraformingAsteroids.CompAtmosphericProjector.ToggleGreenUpTip>
+	<TerraformingAsteroids.CompAtmosphericProjector.ToggleIgroneUnnaturalTerrainTip>Ignore unnatural terrains: {0}</TerraformingAsteroids.CompAtmosphericProjector.ToggleIgroneUnnaturalTerrainTip>
+	<!---->
+</LanguageData>
