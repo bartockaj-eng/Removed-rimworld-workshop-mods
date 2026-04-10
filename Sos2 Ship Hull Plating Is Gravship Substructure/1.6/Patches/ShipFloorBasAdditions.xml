@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  
+  <!-- 将 Substructure 添加到 affordances 列表 -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TerrainDef[@Name="ShipFloorBase"]/affordances</xpath>
+    <value>
+      <li>Substructure</li>
+    </value>
+  </Operation>
+
+  <!-- 将 Substructure 添加到 tags 列表 -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TerrainDef[@Name="ShipFloorBase"]/tags</xpath>
+    <value>
+      <li>Substructure</li>
+    </value>
+  </Operation>
+
+  <!-- 3. 添加 isFoundation 属性 -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TerrainDef[@Name="ShipFloorBase"]</xpath>
+    <value>
+      <isFoundation>true</isFoundation>
+    </value>
+  </Operation>
+
+  <!-- 4. 添加 preventCraters 属性 -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/TerrainDef[@Name="ShipFloorBase"]</xpath>
+    <value>
+      <preventCraters>true</preventCraters>
+    </value>
+  </Operation>
+  
+</Patch>
